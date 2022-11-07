@@ -1,3 +1,3 @@
-/home/babo/temp/lab2/c2/CMakeFiles/main.dir
-/home/babo/temp/lab2/c2/CMakeFiles/edit_cache.dir
-/home/babo/temp/lab2/c2/CMakeFiles/rebuild_cache.dir
+/home/babo/sp/lab2/c2/CMakeFiles/main.dir
+/home/babo/sp/lab2/c2/CMakeFiles/edit_cache.dir
+/home/babo/sp/lab2/c2/CMakeFiles/rebuild_cache.dir

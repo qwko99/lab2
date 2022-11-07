@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/babo/temp/lab2/c2/lib
+C_INCLUDES = -I/home/babo/sp/lab2/c2/lib
 
-C_FLAGS = 
+C_FLAGS = -O2 -g -DNDEBUG
 

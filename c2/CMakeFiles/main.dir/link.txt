@@ -1,1 +1,1 @@
-/usr/bin/cc -rdynamic CMakeFiles/main.dir/main.o CMakeFiles/main.dir/lib/add.o CMakeFiles/main.dir/lib/subtract.o CMakeFiles/main.dir/lib/multiply.o CMakeFiles/main.dir/lib/divide.o -o main 
+/usr/bin/cc -O2 -g -DNDEBUG -rdynamic CMakeFiles/main.dir/main.o CMakeFiles/main.dir/lib/add.o CMakeFiles/main.dir/lib/subtract.o CMakeFiles/main.dir/lib/multiply.o CMakeFiles/main.dir/lib/divide.o -o main 

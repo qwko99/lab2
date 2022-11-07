@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/babo/temp/lab2/c2
+CMAKE_SOURCE_DIR = /home/babo/sp/lab2/c2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/babo/temp/lab2/c2
+CMAKE_BINARY_DIR = /home/babo/sp/lab2/c2
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -72,72 +72,72 @@ include CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.o: main.c
 CMakeFiles/main.dir/main.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/babo/temp/lab2/c2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/main.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main.o -MF CMakeFiles/main.dir/main.o.d -o CMakeFiles/main.dir/main.o -c /home/babo/temp/lab2/c2/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/babo/sp/lab2/c2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/main.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/main.o -MF CMakeFiles/main.dir/main.o.d -o CMakeFiles/main.dir/main.o -c /home/babo/sp/lab2/c2/main.c
 
 CMakeFiles/main.dir/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/main.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/babo/temp/lab2/c2/main.c > CMakeFiles/main.dir/main.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/babo/sp/lab2/c2/main.c > CMakeFiles/main.dir/main.i
 
 CMakeFiles/main.dir/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/main.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/babo/temp/lab2/c2/main.c -o CMakeFiles/main.dir/main.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/babo/sp/lab2/c2/main.c -o CMakeFiles/main.dir/main.s
 
 CMakeFiles/main.dir/lib/add.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/lib/add.o: lib/add.c
 CMakeFiles/main.dir/lib/add.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/babo/temp/lab2/c2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/lib/add.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/lib/add.o -MF CMakeFiles/main.dir/lib/add.o.d -o CMakeFiles/main.dir/lib/add.o -c /home/babo/temp/lab2/c2/lib/add.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/babo/sp/lab2/c2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/lib/add.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/lib/add.o -MF CMakeFiles/main.dir/lib/add.o.d -o CMakeFiles/main.dir/lib/add.o -c /home/babo/sp/lab2/c2/lib/add.c
 
 CMakeFiles/main.dir/lib/add.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/lib/add.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/babo/temp/lab2/c2/lib/add.c > CMakeFiles/main.dir/lib/add.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/babo/sp/lab2/c2/lib/add.c > CMakeFiles/main.dir/lib/add.i
 
 CMakeFiles/main.dir/lib/add.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/lib/add.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/babo/temp/lab2/c2/lib/add.c -o CMakeFiles/main.dir/lib/add.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/babo/sp/lab2/c2/lib/add.c -o CMakeFiles/main.dir/lib/add.s
 
 CMakeFiles/main.dir/lib/subtract.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/lib/subtract.o: lib/subtract.c
 CMakeFiles/main.dir/lib/subtract.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/babo/temp/lab2/c2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/lib/subtract.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/lib/subtract.o -MF CMakeFiles/main.dir/lib/subtract.o.d -o CMakeFiles/main.dir/lib/subtract.o -c /home/babo/temp/lab2/c2/lib/subtract.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/babo/sp/lab2/c2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/lib/subtract.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/lib/subtract.o -MF CMakeFiles/main.dir/lib/subtract.o.d -o CMakeFiles/main.dir/lib/subtract.o -c /home/babo/sp/lab2/c2/lib/subtract.c
 
 CMakeFiles/main.dir/lib/subtract.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/lib/subtract.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/babo/temp/lab2/c2/lib/subtract.c > CMakeFiles/main.dir/lib/subtract.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/babo/sp/lab2/c2/lib/subtract.c > CMakeFiles/main.dir/lib/subtract.i
 
 CMakeFiles/main.dir/lib/subtract.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/lib/subtract.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/babo/temp/lab2/c2/lib/subtract.c -o CMakeFiles/main.dir/lib/subtract.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/babo/sp/lab2/c2/lib/subtract.c -o CMakeFiles/main.dir/lib/subtract.s
 
 CMakeFiles/main.dir/lib/multiply.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/lib/multiply.o: lib/multiply.c
 CMakeFiles/main.dir/lib/multiply.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/babo/temp/lab2/c2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/lib/multiply.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/lib/multiply.o -MF CMakeFiles/main.dir/lib/multiply.o.d -o CMakeFiles/main.dir/lib/multiply.o -c /home/babo/temp/lab2/c2/lib/multiply.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/babo/sp/lab2/c2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/lib/multiply.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/lib/multiply.o -MF CMakeFiles/main.dir/lib/multiply.o.d -o CMakeFiles/main.dir/lib/multiply.o -c /home/babo/sp/lab2/c2/lib/multiply.c
 
 CMakeFiles/main.dir/lib/multiply.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/lib/multiply.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/babo/temp/lab2/c2/lib/multiply.c > CMakeFiles/main.dir/lib/multiply.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/babo/sp/lab2/c2/lib/multiply.c > CMakeFiles/main.dir/lib/multiply.i
 
 CMakeFiles/main.dir/lib/multiply.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/lib/multiply.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/babo/temp/lab2/c2/lib/multiply.c -o CMakeFiles/main.dir/lib/multiply.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/babo/sp/lab2/c2/lib/multiply.c -o CMakeFiles/main.dir/lib/multiply.s
 
 CMakeFiles/main.dir/lib/divide.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/lib/divide.o: lib/divide.c
 CMakeFiles/main.dir/lib/divide.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/babo/temp/lab2/c2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/lib/divide.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/lib/divide.o -MF CMakeFiles/main.dir/lib/divide.o.d -o CMakeFiles/main.dir/lib/divide.o -c /home/babo/temp/lab2/c2/lib/divide.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/babo/sp/lab2/c2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/lib/divide.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/lib/divide.o -MF CMakeFiles/main.dir/lib/divide.o.d -o CMakeFiles/main.dir/lib/divide.o -c /home/babo/sp/lab2/c2/lib/divide.c
 
 CMakeFiles/main.dir/lib/divide.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/lib/divide.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/babo/temp/lab2/c2/lib/divide.c > CMakeFiles/main.dir/lib/divide.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/babo/sp/lab2/c2/lib/divide.c > CMakeFiles/main.dir/lib/divide.i
 
 CMakeFiles/main.dir/lib/divide.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/lib/divide.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/babo/temp/lab2/c2/lib/divide.c -o CMakeFiles/main.dir/lib/divide.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/babo/sp/lab2/c2/lib/divide.c -o CMakeFiles/main.dir/lib/divide.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -157,7 +157,7 @@ main: CMakeFiles/main.dir/lib/multiply.o
 main: CMakeFiles/main.dir/lib/divide.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/babo/temp/lab2/c2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/babo/sp/lab2/c2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -169,6 +169,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/babo/temp/lab2/c2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/babo/temp/lab2/c2 /home/babo/temp/lab2/c2 /home/babo/temp/lab2/c2 /home/babo/temp/lab2/c2 /home/babo/temp/lab2/c2/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/babo/sp/lab2/c2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/babo/sp/lab2/c2 /home/babo/sp/lab2/c2 /home/babo/sp/lab2/c2 /home/babo/sp/lab2/c2 /home/babo/sp/lab2/c2/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 
